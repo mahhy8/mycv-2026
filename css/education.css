@@ -1,0 +1,131 @@
+
+/* CONFIGURACION GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #252b36;
+    padding: 50px 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.educacion {
+    max-width: 950px;
+    margin: auto;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border-left: 6px solid #315b78;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+/* TITULO */
+
+.titulo-seccion {
+    margin-bottom: 35px;
+}
+
+.titulo-seccion h1 {
+    font-size: 34px;
+    color: #1c2d3d;
+    margin-bottom: 12px;
+}
+
+.titulo-seccion p {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* TARJETAS */
+
+.educacion-card {
+    display: flex;
+    gap: 25px;
+    padding: 25px 0;
+    border-top: 1px solid #e3e8ed;
+}
+
+/* NUMERACION */
+
+.educacion-numero {
+    min-width: 48px;
+    height: 48px;
+    background-color: #315b78;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+/* CONTENIDO */
+
+.educacion-contenido {
+    flex: 1;
+}
+
+.estado {
+    display: inline-block;
+    color: #315b78;
+    background-color: #eaf1f6;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.educacion-contenido h2 {
+    font-size: 21px;
+    color: #1c2d3d;
+    margin-bottom: 10px;
+}
+
+.educacion-contenido h3 {
+    font-size: 17px;
+    color: #315b78;
+    margin-bottom: 8px;
+}
+
+.periodo {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    .educacion {
+        padding: 25px;
+    }
+
+    .titulo-seccion h1 {
+        font-size: 27px;
+    }
+
+    .educacion-card {
+        gap: 15px;
+    }
+
+}
