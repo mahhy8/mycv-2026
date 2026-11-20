@@ -1,0 +1,70 @@
+
+/* CONFIGURACION GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MENU DE NAVEGACION */
+
+.menu {
+    width: 100%;
+    min-height: 80px;
+    background-color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 45px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* LOGOTIPO */
+
+.menu-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1c2d3d;
+}
+
+/* LISTA DE ENLACES */
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+/* ENLACES */
+
+.menu-links a {
+    text-decoration: none;
+    color: #315b78;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.menu-links a:hover {
+    color: #1c2d3d;
+}
+
+/* ADAPTACION A CELULARES */
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .menu-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
