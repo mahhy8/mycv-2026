@@ -1,0 +1,124 @@
+
+/* CONFIGURACION GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #252b36;
+    padding: 50px 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.experiencia {
+    max-width: 950px;
+    margin: auto;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border-left: 6px solid #315b78;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+/* TITULO DE LA SECCION */
+
+.titulo-seccion {
+    margin-bottom: 35px;
+}
+
+.titulo-seccion h1 {
+    font-size: 34px;
+    color: #1c2d3d;
+    margin-bottom: 12px;
+}
+
+.titulo-seccion p {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* TARJETAS DE EXPERIENCIA */
+
+.experiencia-card {
+    display: flex;
+    gap: 25px;
+    padding: 25px 0;
+    border-top: 1px solid #e3e8ed;
+}
+
+/* NUMERACION */
+
+.experiencia-icono {
+    min-width: 48px;
+    height: 48px;
+    background-color: #315b78;
+    color: #ffffff;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+/* CONTENIDO */
+
+.experiencia-contenido h2 {
+    color: #315b78;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.experiencia-contenido h3 {
+    color: #1c2d3d;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.periodo {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.experiencia-contenido ul {
+    padding-left: 20px;
+    line-height: 1.9;
+    font-size: 14px;
+}
+
+/* ADAPTACION A CELULARES */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    .experiencia {
+        padding: 25px;
+    }
+
+    .titulo-seccion h1 {
+        font-size: 27px;
+    }
+
+    .experiencia-card {
+        gap: 15px;
+    }
+
+}
